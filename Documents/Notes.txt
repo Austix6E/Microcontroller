@@ -1,7 +1,19 @@
 //THIS FILE IS FOR ALL NOTES RELATING TO MICROCONTROLLER PROJECT
 //AUTHOR : Austin Cole
-//LAST UPDATE : 2017-05-31 23:20:57 
+//LAST UPDATE : 2017-06-01-2326
+
+!!! GENERAL !!!
+
+-Definition of stages:
+	Stage-1 : Research & basic verilog implementation
+	Stage-2 : Full HDL synthesis & testing
+	Stage-3 : Real world FPGA testing
+	Stage-4 : VHDL design
+	Stage-5 : Full regression testing
+	Stage-6 : *maybe* Fab production & testing
 
 !!! ADDERS !!!
 
--
+-I am going to make an initial assumption that a RCA4 is going to be the best optimization
+	however before Stage-3 I would also like to analyse a CSA & a Lynch-Swartzlander adder
+ 

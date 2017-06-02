@@ -5,3 +5,4 @@
 adder_conditionalSum.pdf    --- http://www.cs.columbia.edu/~cs4823/handouts/handout-16-F16.pdf
 adder_binaryAdders.pdf	    --- https://repositories.lib.utexas.edu/bitstream/handle/2152/13960/txu-oclc-35052840.pdf?sequence=2&isAllowed=y
 adder_koggeStoneAdder.doc   --- www.ece.uah.edu/~milenka/cpe626-02S/readings/newadders.doc
+adder_91wordDelayComp.pdf   --- https://pdfs.semanticscholar.org/b0c5/c777509c6e47a5861b6840511f450babd459.pdf
