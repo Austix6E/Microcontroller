@@ -1,0 +1,29 @@
+//THIS DOCUMENTS DEFINES THE GOALS FOR THE MICROCONTROLLOR PROJECT
+//AUTHOR: Austin Cole
+//LAST UPDATE: 17-5-31-2350
+
+!!! PERSONAL !!!
+    1. Obtain a deeper understanding of VLSI/DLD/IC design
+    2. Obtain skills for future careers 
+    
+!!! ACADEMIC !!!
+    1. Obtain a deeper understanding of different MCU architectures 
+    2. Obtain a deeper understanding of delay analysis 
+    3. Obtain a deeper understanding of memory arcitectures 
+
+!!! MICROCONTROLER !!!
+    1. Obtain a moderatly fast operating speed (>20Mhz) 
+    2. 8 bit word size 
+    3. IEEE 754 single precision floating point ALU (*/-+)
+    4. 2 channel audio DSP core
+    5. I2C interface for SDCards
+    6. UART interface for debugging
+    7. 
+
+
+!!!---!!! STEACH GOALS !!!---!!!
+    1. Dual Core 
+    2. 4 channel DSP 
+    
+    
+
