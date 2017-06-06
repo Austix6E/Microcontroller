@@ -14,6 +14,6 @@
 
 !!! ADDERS !!!
 
--I am going to make an initial assumption that a RCA4 is going to be the best optimization
+-I am going to make an initial assumption that a CLA4 is going to be the best optimization
 	however before Stage-3 I would also like to analyse a CSA & a Lynch-Swartzlander adder
  
