@@ -19,7 +19,7 @@
 
 * Target max clock: 100 MHz 
 
-* Instructions/second:
+* Instructions/sample:
     *192 - 520  I/S @ 99.840MHz
     *96  - 1041 I/S @ 99.936MHz
     *48  - 2083 I/S @ 99.984MHz
