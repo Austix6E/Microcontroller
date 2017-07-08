@@ -43,5 +43,5 @@
 
 * Lynch-Swartzlander
 
-* Prefix
+* Kogge-Stone parallel prefix adder
  

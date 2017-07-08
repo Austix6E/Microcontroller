@@ -1,0 +1,613 @@
+# do ks4tb.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:21:18 on Jul 08,2017
+# vlog -reportprogress 300 koggestone4bit.v ks4tb.sv 
+# -- Compiling module koggestone4bit
+# ** Error: (vlog-13069) koggestone4bit.v(44): near "assign": syntax error, unexpected assign, expecting ';' or ','.
+# -- Compiling module kstb
+# End time: 00:21:18 on Jul 08,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /home/acole/intelFPGA_lite/17.0/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./ks4tb.do line 17
+# /home/acole/intelFPGA_lite/17.0/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog koggestone4bit.v ks4tb.sv"
+do ks4tb.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:21:55 on Jul 08,2017
+# vlog -reportprogress 300 koggestone4bit.v ks4tb.sv 
+# -- Compiling module koggestone4bit
+# -- Compiling module kstb
+# 
+# Top level modules:
+# 	kstb
+# End time: 00:21:55 on Jul 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt work.stimulus 
+# Start time: 00:21:56 on Jul 08,2017
+# ** Error: (vsim-3170) Could not find 'stimulus'.
+#         Searched libraries:
+#             /home/acole/Documents/Development/Projects/Microcontroller/HDL/Adder/KSA/work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./ks4tb.do PAUSED at line 22
+
+exit
+stop
+resume
+# End time: 00:25:35 on Jul 08,2017, Elapsed time: 0:03:39
+# Errors: 1, Warnings: 0
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+# ** Error: Active logfile is not in simulation mode
+# Error in macro ./ks4tb.do line 39
+# Active logfile is not in simulation mode
+#     while executing
+# "add log -r /*"
+do ks4tb.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:25:41 on Jul 08,2017
+# vlog -reportprogress 300 koggestone4bit.v ks4tb.sv 
+# -- Compiling module koggestone4bit
+# -- Compiling module kstb
+# 
+# Top level modules:
+# 	kstb
+# End time: 00:25:41 on Jul 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt work.kstb 
+# Start time: 00:25:41 on Jul 08,2017
+# Loading sv_std.std
+# Loading work.kstb
+# Loading work.koggestone4bit
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+# ** Error: (vish-4014) No objects found matching '/stimulus/*'.
+# Error in macro ./ks4tb.do line 38
+# (vish-4014) No objects found matching '/stimulus/*'.
+#     while executing
+# "add list -hex -r /stimulus/*"
+do ks4tb.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:26:12 on Jul 08,2017
+# vlog -reportprogress 300 koggestone4bit.v ks4tb.sv 
+# -- Compiling module koggestone4bit
+# -- Compiling module kstb
+# 
+# Top level modules:
+# 	kstb
+# End time: 00:26:12 on Jul 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 00:26:12 on Jul 08,2017, Elapsed time: 0:00:31
+# Errors: 3, Warnings: 0
+# vsim -novopt work.kstb 
+# Start time: 00:26:12 on Jul 08,2017
+# Loading sv_std.std
+# Loading work.kstb
+# Loading work.koggestone4bit
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave -position end  sim:/kstb/s
+add wave -position end  sim:/kstb/dut/internal_level1_p
+add wave -position end  sim:/kstb/dut/internal_level1_g
+add wave -position end  sim:/kstb/dut/internal_level2_p
+add wave -position end  sim:/kstb/dut/internal_level2_g
+add wave -position end  sim:/kstb/dut/internal_level3_p
+add wave -position end  sim:/kstb/dut/internal_level3_g
+do ks4tb.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:31:06 on Jul 08,2017
+# vlog -reportprogress 300 koggestone4bit.v ks4tb.sv 
+# -- Compiling module koggestone4bit
+# ** Error: (vlog-13038) koggestone4bit.v(6): near ")": Missing port in ansi port list.
+# -- Compiling module kstb
+# End time: 00:31:06 on Jul 08,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /home/acole/intelFPGA_lite/17.0/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./ks4tb.do line 17
+# /home/acole/intelFPGA_lite/17.0/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog koggestone4bit.v ks4tb.sv"
+do ks4tb.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:31:20 on Jul 08,2017
+# vlog -reportprogress 300 koggestone4bit.v ks4tb.sv 
+# -- Compiling module koggestone4bit
+# -- Compiling module kstb
+# 
+# Top level modules:
+# 	kstb
+# End time: 00:31:20 on Jul 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 00:31:20 on Jul 08,2017, Elapsed time: 0:05:08
+# Errors: 4, Warnings: 0
+# vsim -novopt work.kstb 
+# Start time: 00:31:20 on Jul 08,2017
+# Loading sv_std.std
+# Loading work.kstb
+# Loading work.koggestone4bit
+# ** Warning: (vsim-3015) ks4tb.sv(6): [PCDPC] - Port size (1) does not match connection size (4) for port 'cIn'. The port definition is at: koggestone4bit.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /kstb/dut File: koggestone4bit.v
+# ** Warning: (vsim-3015) ks4tb.sv(6): [PCDPC] - Port size (4) does not match connection size (1) for port 's'. The port definition is at: koggestone4bit.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /kstb/dut File: koggestone4bit.v
+# ** Warning: (vsim-3839) ks4tb.sv(16): Variable '/kstb/cIn', driven via a port connection, is multiply driven. See ks4tb.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /kstb File: ks4tb.sv
+# ** Warning: (vsim-3839) ks4tb.sv(12): Variable '/kstb/cIn', driven via a port connection, is multiply driven. See ks4tb.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /kstb File: ks4tb.sv
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave -position end  sim:/kstb/dut/internal_level1_p
+add wave -position end  sim:/kstb/dut/internal_level1_g
+add wave -position end  sim:/kstb/dut/internal_level2_p
+add wave -position end  sim:/kstb/dut/internal_level2_g
+add wave -position end  sim:/kstb/dut/internal_level3_p
+add wave -position end  sim:/kstb/dut/internal_level3_g
+do ks4tb.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:33:08 on Jul 08,2017
+# vlog -reportprogress 300 koggestone4bit.v ks4tb.sv 
+# -- Compiling module koggestone4bit
+# -- Compiling module kstb
+# 
+# Top level modules:
+# 	kstb
+# End time: 00:33:08 on Jul 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 00:33:08 on Jul 08,2017, Elapsed time: 0:01:48
+# Errors: 0, Warnings: 4
+# vsim -novopt work.kstb 
+# Start time: 00:33:08 on Jul 08,2017
+# Loading sv_std.std
+# Loading work.kstb
+# Loading work.koggestone4bit
+# ** Warning: (vsim-3015) ks4tb.sv(6): [PCDPC] - Port size (1) does not match connection size (4) for port 'cIn'. The port definition is at: koggestone4bit.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /kstb/dut File: koggestone4bit.v
+# ** Warning: (vsim-3015) ks4tb.sv(6): [PCDPC] - Port size (4) does not match connection size (1) for port 's'. The port definition is at: koggestone4bit.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /kstb/dut File: koggestone4bit.v
+# ** Warning: (vsim-3839) ks4tb.sv(20): Variable '/kstb/cIn', driven via a port connection, is multiply driven. See ks4tb.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /kstb File: ks4tb.sv
+# ** Warning: (vsim-3839) ks4tb.sv(16): Variable '/kstb/cIn', driven via a port connection, is multiply driven. See ks4tb.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /kstb File: ks4tb.sv
+# ** Warning: (vsim-3839) ks4tb.sv(12): Variable '/kstb/cIn', driven via a port connection, is multiply driven. See ks4tb.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /kstb File: ks4tb.sv
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave -position end  sim:/kstb/dut/internal_level1_p
+add wave -position end  sim:/kstb/dut/internal_level1_g
+add wave -position end  sim:/kstb/dut/internal_level2_p
+add wave -position end  sim:/kstb/dut/internal_level2_g
+add wave -position end  sim:/kstb/dut/internal_level3_p
+add wave -position end  sim:/kstb/dut/internal_level3_g
+do ks4tb.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:38:05 on Jul 08,2017
+# vlog -reportprogress 300 koggestone4bit.v ks4tb.sv 
+# -- Compiling module koggestone4bit
+# -- Compiling module kstb
+# 
+# Top level modules:
+# 	kstb
+# End time: 00:38:05 on Jul 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 00:38:05 on Jul 08,2017, Elapsed time: 0:04:57
+# Errors: 0, Warnings: 5
+# vsim -novopt work.kstb 
+# Start time: 00:38:05 on Jul 08,2017
+# Loading sv_std.std
+# Loading work.kstb
+# Loading work.koggestone4bit
+# ** Warning: (vsim-3015) ks4tb.sv(6): [PCDPC] - Port size (1) does not match connection size (4) for port 'cIn'. The port definition is at: koggestone4bit.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /kstb/dut File: koggestone4bit.v
+# ** Warning: (vsim-3015) ks4tb.sv(6): [PCDPC] - Port size (4) does not match connection size (1) for port 's'. The port definition is at: koggestone4bit.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /kstb/dut File: koggestone4bit.v
+# ** Warning: (vsim-3839) ks4tb.sv(20): Variable '/kstb/cIn', driven via a port connection, is multiply driven. See ks4tb.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /kstb File: ks4tb.sv
+# ** Warning: (vsim-3839) ks4tb.sv(16): Variable '/kstb/cIn', driven via a port connection, is multiply driven. See ks4tb.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /kstb File: ks4tb.sv
+# ** Warning: (vsim-3839) ks4tb.sv(12): Variable '/kstb/cIn', driven via a port connection, is multiply driven. See ks4tb.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /kstb File: ks4tb.sv
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave -position end  sim:/kstb/dut/internal_level1_p
+add wave -position end  sim:/kstb/dut/internal_level1_g
+add wave -position end  sim:/kstb/dut/internal_level2_p
+add wave -position end  sim:/kstb/dut/internal_level2_g
+add wave -position end  sim:/kstb/dut/internal_level3_p
+add wave -position end  sim:/kstb/dut/internal_level3_g
+do ks4tb.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:40:22 on Jul 08,2017
+# vlog -reportprogress 300 koggestone4bit.v ks4tb.sv 
+# -- Compiling module koggestone4bit
+# -- Compiling module kstb
+# 
+# Top level modules:
+# 	kstb
+# End time: 00:40:22 on Jul 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 00:40:23 on Jul 08,2017, Elapsed time: 0:02:18
+# Errors: 0, Warnings: 5
+# vsim -novopt work.kstb 
+# Start time: 00:40:23 on Jul 08,2017
+# Loading sv_std.std
+# Loading work.kstb
+# Loading work.koggestone4bit
+# ** Warning: (vsim-3015) ks4tb.sv(6): [PCDPC] - Port size (1) does not match connection size (4) for port 'cIn'. The port definition is at: koggestone4bit.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /kstb/dut File: koggestone4bit.v
+# ** Warning: (vsim-3015) ks4tb.sv(6): [PCDPC] - Port size (4) does not match connection size (1) for port 's'. The port definition is at: koggestone4bit.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /kstb/dut File: koggestone4bit.v
+# ** Warning: (vsim-3839) ks4tb.sv(20): Variable '/kstb/cIn', driven via a port connection, is multiply driven. See ks4tb.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /kstb File: ks4tb.sv
+# ** Warning: (vsim-3839) ks4tb.sv(16): Variable '/kstb/cIn', driven via a port connection, is multiply driven. See ks4tb.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /kstb File: ks4tb.sv
+# ** Warning: (vsim-3839) ks4tb.sv(12): Variable '/kstb/cIn', driven via a port connection, is multiply driven. See ks4tb.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /kstb File: ks4tb.sv
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave -position end  sim:/kstb/dut/internal_level1_p
+add wave -position end  sim:/kstb/dut/internal_level1_g
+add wave -position end  sim:/kstb/dut/internal_level2_p
+add wave -position end  sim:/kstb/dut/internal_level2_g
+add wave -position end  sim:/kstb/dut/internal_level3_p
+add wave -position end  sim:/kstb/dut/internal_level3_g
+do ks4tb.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:41:24 on Jul 08,2017
+# vlog -reportprogress 300 koggestone4bit.v ks4tb.sv 
+# -- Compiling module koggestone4bit
+# ** Error: (vlog-13038) koggestone4bit.v(6): near ")": Missing port in ansi port list.
+# -- Compiling module kstb
+# End time: 00:41:24 on Jul 08,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /home/acole/intelFPGA_lite/17.0/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./ks4tb.do line 17
+# /home/acole/intelFPGA_lite/17.0/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog koggestone4bit.v ks4tb.sv"
+do ks4tb.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:42:05 on Jul 08,2017
+# vlog -reportprogress 300 koggestone4bit.v ks4tb.sv 
+# -- Compiling module koggestone4bit
+# -- Compiling module kstb
+# 
+# Top level modules:
+# 	kstb
+# End time: 00:42:05 on Jul 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 00:42:05 on Jul 08,2017, Elapsed time: 0:01:42
+# Errors: 4, Warnings: 5
+# vsim -novopt work.kstb 
+# Start time: 00:42:05 on Jul 08,2017
+# Loading sv_std.std
+# Loading work.kstb
+# Loading work.koggestone4bit
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do ks4tb.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:44:07 on Jul 08,2017
+# vlog -reportprogress 300 koggestone4bit.v ks4tb.sv 
+# -- Compiling module koggestone4bit
+# -- Compiling module kstb
+# 
+# Top level modules:
+# 	kstb
+# End time: 00:44:07 on Jul 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 00:44:07 on Jul 08,2017, Elapsed time: 0:02:02
+# Errors: 0, Warnings: 0
+# vsim -novopt work.kstb 
+# Start time: 00:44:07 on Jul 08,2017
+# Loading sv_std.std
+# Loading work.kstb
+# Loading work.koggestone4bit
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do ks4tb.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:51:57 on Jul 08,2017
+# vlog -reportprogress 300 koggestone4bit.v ks4tb.sv 
+# -- Compiling module koggestone4bit
+# -- Compiling module kstb
+# 
+# Top level modules:
+# 	kstb
+# End time: 00:51:57 on Jul 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 00:51:57 on Jul 08,2017, Elapsed time: 0:07:50
+# Errors: 0, Warnings: 0
+# vsim -novopt work.kstb 
+# Start time: 00:51:57 on Jul 08,2017
+# Loading sv_std.std
+# Loading work.kstb
+# Loading work.koggestone4bit
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave -position end  sim:/kstb/dut/internal_level1_p
+add wave -position end  sim:/kstb/dut/internal_level1_g
+add wave -position end  sim:/kstb/dut/internal_level2_p
+add wave -position end  sim:/kstb/dut/internal_level2_g
+add wave -position end  sim:/kstb/dut/internal_level3_p
+add wave -position end  sim:/kstb/dut/internal_level3_g
+do ks4tb.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:57:03 on Jul 08,2017
+# vlog -reportprogress 300 koggestone4bit.v ks4tb.sv 
+# -- Compiling module koggestone4bit
+# ** Error: (vlog-3373) koggestone4bit.v(24): Range of part-select [0:3] into 'internal_level2_p' [3:0] is reversed.
+# ** Error: (vlog-3373) koggestone4bit.v(30): Range of part-select [0:3] into 'internal_level2_g' [3:0] is reversed.
+# ** Error: (vlog-3373) koggestone4bit.v(38): Range of part-select [0:3] into 'internal_level3_p' [3:0] is reversed.
+# ** Error: (vlog-3373) koggestone4bit.v(44): Range of part-select [0:3] into 'internal_level3_g' [3:0] is reversed.
+# -- Compiling module kstb
+# End time: 00:57:03 on Jul 08,2017, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: /home/acole/intelFPGA_lite/17.0/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./ks4tb.do line 17
+# /home/acole/intelFPGA_lite/17.0/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog koggestone4bit.v ks4tb.sv"
+do ks4tb.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:58:13 on Jul 08,2017
+# vlog -reportprogress 300 koggestone4bit.v ks4tb.sv 
+# -- Compiling module koggestone4bit
+# -- Compiling module kstb
+# 
+# Top level modules:
+# 	kstb
+# End time: 00:58:13 on Jul 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 00:58:13 on Jul 08,2017, Elapsed time: 0:06:16
+# Errors: 7, Warnings: 0
+# vsim -novopt work.kstb 
+# Start time: 00:58:13 on Jul 08,2017
+# Loading sv_std.std
+# Loading work.kstb
+# Loading work.koggestone4bit
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do ks4tb.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:01:34 on Jul 08,2017
+# vlog -reportprogress 300 koggestone4bit.v ks4tb.sv 
+# -- Compiling module koggestone4bit
+# -- Compiling module kstb
+# 
+# Top level modules:
+# 	kstb
+# End time: 01:01:34 on Jul 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 01:01:34 on Jul 08,2017, Elapsed time: 0:03:21
+# Errors: 0, Warnings: 0
+# vsim -novopt work.kstb 
+# Start time: 01:01:34 on Jul 08,2017
+# Loading sv_std.std
+# Loading work.kstb
+# Loading work.koggestone4bit
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave -position end  sim:/kstb/dut/internal_level1_p
+add wave -position end  sim:/kstb/dut/internal_level1_g
+add wave -position end  sim:/kstb/dut/internal_level2_p
+add wave -position end  sim:/kstb/dut/internal_level2_g
+add wave -position end  sim:/kstb/dut/internal_level3_p
+add wave -position end  sim:/kstb/dut/internal_level3_g
+add wave -position end  sim:/kstb/dut/internal_level3_g
+do ks4tb.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:16:23 on Jul 08,2017
+# vlog -reportprogress 300 koggestone4bit.v ks4tb.sv 
+# -- Compiling module koggestone4bit
+# -- Compiling module kstb
+# 
+# Top level modules:
+# 	kstb
+# End time: 01:16:23 on Jul 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 01:16:23 on Jul 08,2017, Elapsed time: 0:14:49
+# Errors: 0, Warnings: 0
+# vsim -novopt work.kstb 
+# Start time: 01:16:23 on Jul 08,2017
+# Loading sv_std.std
+# Loading work.kstb
+# Loading work.koggestone4bit
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do ks4tb.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:45:20 on Jul 08,2017
+# vlog -reportprogress 300 koggestone4bit.v ks4tb.sv 
+# -- Compiling module koggestone4bit
+# ** Error: koggestone4bit.v(54): (vlog-2730) Undefined variable: 'internal_level3_c'.
+# -- Compiling module kstb
+# End time: 01:45:20 on Jul 08,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /home/acole/intelFPGA_lite/17.0/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./ks4tb.do line 17
+# /home/acole/intelFPGA_lite/17.0/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog koggestone4bit.v ks4tb.sv"
+do ks4tb.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:45:39 on Jul 08,2017
+# vlog -reportprogress 300 koggestone4bit.v ks4tb.sv 
+# -- Compiling module koggestone4bit
+# -- Compiling module kstb
+# 
+# Top level modules:
+# 	kstb
+# End time: 01:45:39 on Jul 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 01:45:39 on Jul 08,2017, Elapsed time: 0:29:16
+# Errors: 4, Warnings: 0
+# vsim -novopt work.kstb 
+# Start time: 01:45:39 on Jul 08,2017
+# Loading sv_std.std
+# Loading work.kstb
+# Loading work.koggestone4bit
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do ks4tb.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:53:35 on Jul 08,2017
+# vlog -reportprogress 300 koggestone4bit.v ks4tb.sv 
+# -- Compiling module koggestone4bit
+# -- Compiling module kstb
+# 
+# Top level modules:
+# 	kstb
+# End time: 01:53:35 on Jul 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 01:53:35 on Jul 08,2017, Elapsed time: 0:07:56
+# Errors: 0, Warnings: 0
+# vsim -novopt work.kstb 
+# Start time: 01:53:35 on Jul 08,2017
+# Loading sv_std.std
+# Loading work.kstb
+# Loading work.koggestone4bit
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do ks4tb.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:00:38 on Jul 08,2017
+# vlog -reportprogress 300 koggestone4bit.v ks4tb.sv 
+# -- Compiling module koggestone4bit
+# ** Error: koggestone4bit.v(49): (vlog-2730) Undefined variable: 'internal_level3_c'.
+# -- Compiling module kstb
+# End time: 02:00:38 on Jul 08,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /home/acole/intelFPGA_lite/17.0/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./ks4tb.do line 17
+# /home/acole/intelFPGA_lite/17.0/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog koggestone4bit.v ks4tb.sv"
+do ks4tb.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:01:04 on Jul 08,2017
+# vlog -reportprogress 300 koggestone4bit.v ks4tb.sv 
+# -- Compiling module koggestone4bit
+# -- Compiling module kstb
+# 
+# Top level modules:
+# 	kstb
+# End time: 02:01:04 on Jul 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 02:01:05 on Jul 08,2017, Elapsed time: 0:07:30
+# Errors: 4, Warnings: 0
+# vsim -novopt work.kstb 
+# Start time: 02:01:05 on Jul 08,2017
+# Loading sv_std.std
+# Loading work.kstb
+# Loading work.koggestone4bit
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do ks4tb.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:06:39 on Jul 08,2017
+# vlog -reportprogress 300 koggestone4bit.v ks4tb.sv 
+# -- Compiling module koggestone4bit
+# -- Compiling module kstb
+# ** Error: (vlog-13069) ks4tb.sv(13): near "=": syntax error, unexpected '=', expecting ++ or --.
+# ** Error: (vlog-13069) ks4tb.sv(18): near "=": syntax error, unexpected '=', expecting ++ or --.
+# ** Error: (vlog-13069) ks4tb.sv(23): near "=": syntax error, unexpected '=', expecting ++ or --.
+# ** Error: (vlog-13069) ks4tb.sv(28): near "=": syntax error, unexpected '=', expecting ++ or --.
+# ** Error: (vlog-13069) ks4tb.sv(33): near "=": syntax error, unexpected '=', expecting ++ or --.
+# ** Error: (vlog-13069) ks4tb.sv(38): near "=": syntax error, unexpected '=', expecting ++ or --.
+# End time: 02:06:39 on Jul 08,2017, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+# ** Error: /home/acole/intelFPGA_lite/17.0/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./ks4tb.do line 17
+# /home/acole/intelFPGA_lite/17.0/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog koggestone4bit.v ks4tb.sv"
+do ks4tb.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:07:37 on Jul 08,2017
+# vlog -reportprogress 300 koggestone4bit.v ks4tb.sv 
+# -- Compiling module koggestone4bit
+# -- Compiling module kstb
+# ** Error: (vlog-13069) ks4tb.sv(13): near "=": syntax error, unexpected '=', expecting ++ or --.
+# ** Error: (vlog-13069) ks4tb.sv(18): near "=": syntax error, unexpected '=', expecting ++ or --.
+# ** Error: (vlog-13069) ks4tb.sv(23): near "=": syntax error, unexpected '=', expecting ++ or --.
+# ** Error: (vlog-13069) ks4tb.sv(28): near "=": syntax error, unexpected '=', expecting ++ or --.
+# ** Error: (vlog-13069) ks4tb.sv(33): near "=": syntax error, unexpected '=', expecting ++ or --.
+# ** Error: (vlog-13069) ks4tb.sv(38): near "=": syntax error, unexpected '=', expecting ++ or --.
+# End time: 02:07:37 on Jul 08,2017, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+# ** Error: /home/acole/intelFPGA_lite/17.0/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./ks4tb.do line 17
+# /home/acole/intelFPGA_lite/17.0/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog koggestone4bit.v ks4tb.sv"
+do ks4tb.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:08:06 on Jul 08,2017
+# vlog -reportprogress 300 koggestone4bit.v ks4tb.sv 
+# -- Compiling module koggestone4bit
+# -- Compiling module kstb
+# ** Error: (vlog-13069) ks4tb.sv(13): near "=": syntax error, unexpected '=', expecting ++ or --.
+# ** Error: (vlog-13069) ks4tb.sv(18): near "=": syntax error, unexpected '=', expecting ++ or --.
+# ** Error: (vlog-13069) ks4tb.sv(23): near "=": syntax error, unexpected '=', expecting ++ or --.
+# ** Error: (vlog-13069) ks4tb.sv(28): near "=": syntax error, unexpected '=', expecting ++ or --.
+# ** Error: (vlog-13069) ks4tb.sv(33): near "=": syntax error, unexpected '=', expecting ++ or --.
+# ** Error: (vlog-13069) ks4tb.sv(38): near "=": syntax error, unexpected '=', expecting ++ or --.
+# End time: 02:08:06 on Jul 08,2017, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+# ** Error: /home/acole/intelFPGA_lite/17.0/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./ks4tb.do line 17
+# /home/acole/intelFPGA_lite/17.0/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog koggestone4bit.v ks4tb.sv"
+do ks4tb.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:08:29 on Jul 08,2017
+# vlog -reportprogress 300 koggestone4bit.v ks4tb.sv 
+# -- Compiling module koggestone4bit
+# -- Compiling module kstb
+# 
+# Top level modules:
+# 	kstb
+# End time: 02:08:29 on Jul 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 02:08:30 on Jul 08,2017, Elapsed time: 0:07:25
+# Errors: 27, Warnings: 0
+# vsim -novopt work.kstb 
+# Start time: 02:08:30 on Jul 08,2017
+# Loading sv_std.std
+# Loading work.kstb
+# Loading work.koggestone4bit
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+# T1 good
+# T2 good
+# T4 good
+do ks4tb.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:10:25 on Jul 08,2017
+# vlog -reportprogress 300 koggestone4bit.v ks4tb.sv 
+# -- Compiling module koggestone4bit
+# -- Compiling module kstb
+# 
+# Top level modules:
+# 	kstb
+# End time: 02:10:25 on Jul 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 02:10:25 on Jul 08,2017, Elapsed time: 0:01:55
+# Errors: 0, Warnings: 0
+# vsim -novopt work.kstb 
+# Start time: 02:10:25 on Jul 08,2017
+# Loading sv_std.std
+# Loading work.kstb
+# Loading work.koggestone4bit
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+# T1 good
+# T2 good
+# T3 good
+# T4 good
+# T5 good
+# T6 good
+# End time: 02:17:58 on Jul 08,2017, Elapsed time: 0:07:33
+# Errors: 0, Warnings: 0
