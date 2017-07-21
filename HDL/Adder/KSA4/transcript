@@ -1,0 +1,26 @@
+# do ks4tb.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:53:04 on Jul 20,2017
+# vlog -reportprogress 300 koggestone4bit.sv ks4tb.sv 
+# -- Compiling module koggestone4bit
+# -- Compiling module kstb
+# 
+# Top level modules:
+# 	kstb
+# End time: 21:53:04 on Jul 20,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt work.kstb 
+# Start time: 21:53:05 on Jul 20,2017
+# Loading sv_std.std
+# Loading work.kstb
+# Loading work.koggestone4bit
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+# T1 good
+# T2 good
+# T3 good
+# T4 good
+# T5 good
+# T6 good
+# End time: 00:55:25 on Jul 21,2017, Elapsed time: 3:02:20
+# Errors: 0, Warnings: 0

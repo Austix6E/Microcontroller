@@ -14,7 +14,7 @@ if [file exists work] {
 vlib work
 
 # compile baseline source files
-vlog koggestone4bit.v ks4tb.sv
+vlog koggestone32bit.sv ks32tb.sv
 # compile top source modules
 #vlog mux21x16.sv reg16.sv xor16.v sincos.v angle.v
 
