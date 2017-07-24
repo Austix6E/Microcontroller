@@ -28,12 +28,14 @@ view wave
 # Diplays All Signals recursively
 # add wave -hex -r /stimulus/*
 add wave -noupdate -divider -height 32 "IN"
-add wave -bin /kstb/dut/a
-add wave -bin /kstb/dut/b
-add wave -bin /kstb/dut/cIn
+add wave -dec /kstb/a
+add wave -dec /kstb/b
+add wave -bin /kstb/cIn
 add wave -noupdate -divider -height 32 "out"
-add wave -bin /kstb/dut/s
-add wave -bin /kstb/dut/cOut
+add wave -dec /kstb/s
+add wave -bin /kstb/cOut
+add wave -noupdate -divider -height 32 "internal"
+add wave -bin -r /kstb/dut/*
 
 add list -hex -r /kstb/*
 add log -r /*
