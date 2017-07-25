@@ -1,0 +1,28 @@
+# do ks64tb.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:19:42 on Jul 24,2017
+# vlog -reportprogress 300 koggestone64bit.sv ks64tb.sv 
+# -- Compiling module koggestone64bit
+# -- Compiling module kstb
+# 
+# Top level modules:
+# 	kstb
+# End time: 22:19:42 on Jul 24,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt work.kstb 
+# Start time: 22:19:42 on Jul 24,2017
+# Loading sv_std.std
+# Loading work.kstb
+# Loading work.koggestone64bit
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+# T1 good
+# T2 good
+# T3 good
+# T4 good
+# T5 good
+# T6 good
+# T7 good
+# T8 good
+# End time: 22:19:54 on Jul 24,2017, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 0
