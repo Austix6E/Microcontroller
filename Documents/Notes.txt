@@ -8,9 +8,10 @@
 	Stage-1 : Research & basic verilog implementation
 	Stage-2 : Full HDL synthesis & testing
 	Stage-3 : Real world FPGA testing
-	Stage-4 : VHDL design
-	Stage-5 : Full regression testing
-	Stage-6 : *maybe* Fab production & testing
+	Stage-4 : Schematic design
+	Stage-5 : VLSI design
+    Stage-6 : Regression Testing
+	Stage-7 : *maybe* Fab production @ MOSIS & testing
   
 * Max sampling rate: 192 KHz
     *192
